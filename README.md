@@ -82,6 +82,4 @@ instances against the same database.
 
 - [DESIGN.md](./DESIGN.md) records the guarantees, failure handling, tradeoffs,
   and validation performed.
-- [INTERVIEW-GUIDE.md](./INTERVIEW-GUIDE.md) explains the functions, why they
-  exist, alternatives, and likely follow-up questions.
 - [AI-USAGE.md](./AI-USAGE.md) documents how AI contributed to this submission.
