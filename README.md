@@ -35,6 +35,7 @@ and message ID; stores with a permanently failed receipt or irreconcilable
 sequence data are logged as blocked, while other stores continue.
 
 Useful PostgreSQL checks:
+Please run check.sql with PowerShell: `Get-Content check.sql | docker compose exec -T db psql -U postgres -d stockstream`
 
 ```sql
 SELECT status, COUNT(*)
